@@ -1,1 +1,6 @@
-# flexbox and css grid
+# Flexbox + CSS Grid
+This is an example integration of two CSS styles.
+
+# What I Learned
+When to use Flexbox and when to use CSS Grid
+Initial use of a media query
