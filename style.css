@@ -1,5 +1,5 @@
 body {
-  margin: 0 auto;
+  margin: auto 0;
 }
 
 .zone {
@@ -22,44 +22,30 @@ body {
 .main-nav {
   display: flex;
   margin: 0;
+  list-style: none;
   font-size: 1em;
 }
 
-@media only screen and (maxwidth: 600px) {
-  li {
-    font-size: 8px;
-    padding: 0px;
+@media only screen and (max-width: 600px) {
+  .main-nav {
+    font-size: 0.5em;
+    padding: 0;
   }
-}
-
-li {
-  list-style-type: none;
-  font-weight: 300;
-  text-transform: lowercase;
-  padding: 20px;
-  font-size: 20px;
-}
-
-a {
-  text-decoration: none;
-  color: #fff;
 }
 
 .push {
   margin-left: auto;
 }
 
-/* Cover */
-
-/* Projects */
-.css-grid {
-  display: grid;
+li {
+  list-style-type: none;
+  font-weight: 300;
+  padding: 20px;
 }
 
-/* Footer */
-footer {
-  display: flex;
-  text-align: center;
+a {
+  text-decoration: none;
+  color: #fff;
 }
 
 /* Green Background */
