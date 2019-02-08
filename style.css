@@ -48,6 +48,16 @@ a {
   color: #fff;
 }
 
+/* Container */
+.container {
+  display: flex;
+  height: 50vh;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+
 /* Green Background */
 .green{
     background: #56B870; /* Old browsers */
